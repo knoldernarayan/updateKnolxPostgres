@@ -7,10 +7,11 @@ import java.text.SimpleDateFormat
 import scala.slick.lifted.ProvenShape
 import com.typesafe.config.ConfigFactory
 import org.slf4j.LoggerFactory
-/**
- * This is KnolRepo trait which defines set of method which is going to implement by KnolRepoImpl class.
+/**-----------------------------------------------------------------------------------------------------
+ * This is KnolRepo trait which extends DBConnection and implements CURD operations.
+ * -----------------------------------------------------------------------------------------------------
  */
-trait KnolRepo extends DBConnection {
+trait KnolRepo extends DBConnection{
   class KnolderTable(tag: Tag) extends Table[Knolder](tag, "knolder") {
     def id: Column[Int] = column[Int]("id", O.PrimaryKey, O.AutoInc)
     def name: Column[String] = column[String]("name", O.NotNull)
@@ -22,9 +23,10 @@ trait KnolRepo extends DBConnection {
 
   def knolderTableAutoInc = knolderTable returning knolderTable.map(_.id)
   val dbObject = getObject()
-  /**
+  /**----------------------------------------------------------------------------------------------
    * createKnol is one of the method of KnolRepo Trait which takes Knolder's object as argument and
    * returns AutoIncr Id value.
+   * ----------------------------------------------------------------------------------------------
    */
   def createKnol(knol: Knolder): Option[Int] = {
     dbObject.withSession { implicit session =>
@@ -32,27 +34,42 @@ trait KnolRepo extends DBConnection {
       Some(result)
     }
   }
+  /**------------------------------------------------------------------------------------------
+   * update is one of the method of KnolRepo Trait which takes Knolder's object as argument and
+   * returns number of effected rows.
+   * ------------------------------------------------------------------------------------------
+   */
   def update(knol: Knolder):Option [Int]={
     dbObject.withSession { implicit session =>
       val result = knolderTable.filter (_.id ===knol.id).update(knol)
       Some(result)
     }
   }
+  /**--------------------------------------------------------------------------------------------
+   * delete is a method which takes Knolder's id as argument and returns number of effected rows.
+   * --------------------------------------------------------------------------------------------
+   */
   def delete(id: Int): Option[Int]={
      dbObject.withSession { implicit session =>
       val result = knolderTable.filter (_.id ===id).delete
       Some(result)
     }
   }
+  /**---------------------------------------------------------------------------------------------
+   * getKnol is a method which tales Knolder's id as argument and returns number of effected rows.
+   * ---------------------------------------------------------------------------------------------
+   */
   def getKnol(id: Int):Option[List[ Knolder]] ={
     dbObject.withSession { implicit session =>
       val result = knolderTable.filter(_.id === id).list
       Some(result)
     }
   }
+   
 
 }
-/**
+/**------------------------------------------------------------------------
  * This is Knolder's case class which is used for create knolder's object.
+ * ------------------------------------------------------------------------
  */
 case class Knolder(val id: Int, val name: String,val email: String,val mobileNo: String)

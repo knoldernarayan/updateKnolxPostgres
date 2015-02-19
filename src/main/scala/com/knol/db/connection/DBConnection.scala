@@ -10,8 +10,9 @@ trait DBConnection {
     { utilDate => new java.sql.Date(utilDate.getTime()) },
     { sqlDate => new java.util.Date(sqlDate.getTime()) })
   val logger = LoggerFactory.getLogger(this.getClass)
-  /**
+  /**-----------------------------------------------------------------------------
    * This is one of the method of DBConnection trait which return Database object.
+   * -----------------------------------------------------------------------------
    */
   def getObject():Database ={
       

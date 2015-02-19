@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/home/knoldus/Application/slickApp/project/}slickapp-build...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/sidharth/workspace/slickApp/project/}slickapp-build...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: default#slickapp-build;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -30,31 +30,31 @@
 [0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-core_2.10;6.0.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.2.0->org.scalaz#scalaz-core_2.10;6.0.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.2.0->org.scalaz#scalaz-core_2.10;6.0.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-library;2.10.4[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.2.0->org.scalaz#scalaz-core_2.10;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#slickapp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;0.6.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scalastyle#scalastyle-sbt-plugin;0.6.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalastyle#scalastyle-sbt-plugin;0.6.0 {compile=[default(compile)]}[0m
@@ -62,28 +62,28 @@
 [0m[[0mdebug[0m] [0m	found org.scalastyle#scalastyle-sbt-plugin;0.6.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#slickapp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;0.6.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#slickapp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;0.6.0 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scalastyle#scalastyle_2.10;0.6.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalastyle#scalastyle_2.10;0.6.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalastyle#scalastyle_2.10;0.6.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalastyle#scalastyle_2.10;0.6.0[0m
 [0m[[0mdebug[0m] [0m	found org.scalastyle#scalastyle_2.10;0.6.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.danieltrinh#scalariform_2.10;0.1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.danieltrinh#scalariform_2.10;0.1.5 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving com.danieltrinh#scalariform_2.10;0.1.5 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.danieltrinh#scalariform_2.10;0.1.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.danieltrinh#scalariform_2.10;0.1.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.danieltrinh#scalariform_2.10;0.1.5[0m
 [0m[[0mdebug[0m] [0m	found com.danieltrinh#scalariform_2.10;0.1.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.danieltrinh#scalariform_2.10;0.1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.danieltrinh#scalariform_2.10;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.danieltrinh#scalariform_2.10;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.danieltrinh#scalariform_2.10;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.danieltrinh#scalariform_2.10;0.1.5 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.typesafe#config;1.2.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.typesafe#config;1.2.0 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe#config;1.2.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#config;1.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#config;1.2.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.2.0[0m
 [0m[[0mdebug[0m] [0m	found com.typesafe#config;1.2.0 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.typesafe#config;1.2.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.typesafe#config;1.2.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
@@ -109,8 +109,8 @@
 [0m[[0mdebug[0m] [0m	found org.scoverage#scalac-scoverage-plugin_2.10;1.0.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.0.4->org.scoverage#scalac-scoverage-plugin_2.10;1.0.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.0.4->org.scoverage#scalac-scoverage-plugin_2.10;1.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.0.4->org.scoverage#scalac-scoverage-plugin_2.10;1.0.4 [compile->master][0m
@@ -130,37 +130,37 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.2.0->org.scalaz#scalaz-core_2.10;6.0.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.2.0->org.scalaz#scalaz-core_2.10;6.0.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.2.0->org.scalaz#scalaz-core_2.10;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#slickapp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;0.6.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#slickapp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;0.6.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#slickapp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;0.6.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.danieltrinh#scalariform_2.10;0.1.5 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.danieltrinh#scalariform_2.10;0.1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.danieltrinh#scalariform_2.10;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.danieltrinh#scalariform_2.10;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.danieltrinh#scalariform_2.10;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.danieltrinh#scalariform_2.10;0.1.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.typesafe#config;1.2.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.typesafe#config;1.2.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.typesafe#config;1.2.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
@@ -176,8 +176,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.0.4->org.scoverage#scalac-scoverage-plugin_2.10;1.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.0.4->org.scoverage#scalac-scoverage-plugin_2.10;1.0.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.0.4->org.scoverage#scalac-scoverage-plugin_2.10;1.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.0.4->org.scoverage#scalac-scoverage-plugin_2.10;1.0.4 [compile->master][0m
@@ -198,37 +198,37 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.2.0->org.scalaz#scalaz-core_2.10;6.0.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.2.0->org.scalaz#scalaz-core_2.10;6.0.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.2.0->org.scalaz#scalaz-core_2.10;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#slickapp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;0.6.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#slickapp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;0.6.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#slickapp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;0.6.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.danieltrinh#scalariform_2.10;0.1.5 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.danieltrinh#scalariform_2.10;0.1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.danieltrinh#scalariform_2.10;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.danieltrinh#scalariform_2.10;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.danieltrinh#scalariform_2.10;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.danieltrinh#scalariform_2.10;0.1.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.typesafe#config;1.2.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.typesafe#config;1.2.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.typesafe#config;1.2.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
@@ -244,8 +244,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.0.4->org.scoverage#scalac-scoverage-plugin_2.10;1.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.0.4->org.scoverage#scalac-scoverage-plugin_2.10;1.0.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.0.4->org.scoverage#scalac-scoverage-plugin_2.10;1.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.0.4->org.scoverage#scalac-scoverage-plugin_2.10;1.0.4 [compile->master][0m
@@ -967,37 +967,37 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.2.0->org.scalaz#scalaz-core_2.10;6.0.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.2.0->org.scalaz#scalaz-core_2.10;6.0.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.2.0->org.scalaz#scalaz-core_2.10;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#slickapp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;0.6.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#slickapp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;0.6.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#slickapp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;0.6.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.danieltrinh#scalariform_2.10;0.1.5 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.danieltrinh#scalariform_2.10;0.1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.danieltrinh#scalariform_2.10;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.danieltrinh#scalariform_2.10;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.danieltrinh#scalariform_2.10;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.danieltrinh#scalariform_2.10;0.1.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.typesafe#config;1.2.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.typesafe#config;1.2.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.typesafe#config;1.2.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
@@ -1013,8 +1013,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.0.4->org.scoverage#scalac-scoverage-plugin_2.10;1.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.0.4->org.scoverage#scalac-scoverage-plugin_2.10;1.0.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.0.4->org.scoverage#scalac-scoverage-plugin_2.10;1.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.0.4->org.scoverage#scalac-scoverage-plugin_2.10;1.0.4 [compile->master][0m
@@ -1524,37 +1524,37 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.2.0->org.scalaz#scalaz-core_2.10;6.0.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.2.0->org.scalaz#scalaz-core_2.10;6.0.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.2.0->org.scalaz#scalaz-core_2.10;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#slickapp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;0.6.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#slickapp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;0.6.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#slickapp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;0.6.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.danieltrinh#scalariform_2.10;0.1.5 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.danieltrinh#scalariform_2.10;0.1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.danieltrinh#scalariform_2.10;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.danieltrinh#scalariform_2.10;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.danieltrinh#scalariform_2.10;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.danieltrinh#scalariform_2.10;0.1.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.typesafe#config;1.2.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.typesafe#config;1.2.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.typesafe#config;1.2.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
@@ -1570,8 +1570,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.0.4->org.scoverage#scalac-scoverage-plugin_2.10;1.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.0.4->org.scoverage#scalac-scoverage-plugin_2.10;1.0.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.0.4->org.scoverage#scalac-scoverage-plugin_2.10;1.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.0.4->org.scoverage#scalac-scoverage-plugin_2.10;1.0.4 [compile->master][0m
@@ -1594,37 +1594,37 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.2.0->org.scalaz#scalaz-core_2.10;6.0.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.2.0->org.scalaz#scalaz-core_2.10;6.0.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;6.0.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbteclipse#sbteclipse-core;2.2.0->org.scalaz#scalaz-core_2.10;6.0.4 [compile->master][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#slickapp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;0.6.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#slickapp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;0.6.0 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#slickapp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle-sbt-plugin;0.6.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.danieltrinh#scalariform_2.10;0.1.5 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.danieltrinh#scalariform_2.10;0.1.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.danieltrinh#scalariform_2.10;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.danieltrinh#scalariform_2.10;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.danieltrinh#scalariform_2.10;0.1.5->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.danieltrinh#scalariform_2.10;0.1.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.typesafe#config;1.2.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.typesafe#config;1.2.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->com.typesafe#config;1.2.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle-sbt-plugin;0.6.0->org.scalastyle#scalastyle_2.10;0.6.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scalastyle#scalastyle_2.10;0.6.0->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
@@ -1640,8 +1640,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.0.4->org.scoverage#scalac-scoverage-plugin_2.10;1.0.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.0.4->org.scoverage#scalac-scoverage-plugin_2.10;1.0.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.0.4->org.scoverage#scalac-scoverage-plugin_2.10;1.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#scalac-scoverage-plugin_2.10;1.0.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scoverage#sbt-scoverage;1.0.4->org.scoverage#scalac-scoverage-plugin_2.10;1.0.4 [compile->master][0m
@@ -2249,19 +2249,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.7!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2137ms :: artifacts dl 41ms[0m
-[0m[[0mdebug[0m] [0m	report for default#slickapp-build;0.1-SNAPSHOT compile produced in /home/knoldus/Application/slickApp/project/target/resolution-cache/reports/default-slickapp-build-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#slickapp-build;0.1-SNAPSHOT runtime produced in /home/knoldus/Application/slickApp/project/target/resolution-cache/reports/default-slickapp-build-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#slickapp-build;0.1-SNAPSHOT test produced in /home/knoldus/Application/slickApp/project/target/resolution-cache/reports/default-slickapp-build-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#slickapp-build;0.1-SNAPSHOT provided produced in /home/knoldus/Application/slickApp/project/target/resolution-cache/reports/default-slickapp-build-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#slickapp-build;0.1-SNAPSHOT optional produced in /home/knoldus/Application/slickApp/project/target/resolution-cache/reports/default-slickapp-build-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#slickapp-build;0.1-SNAPSHOT compile-internal produced in /home/knoldus/Application/slickApp/project/target/resolution-cache/reports/default-slickapp-build-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#slickapp-build;0.1-SNAPSHOT runtime-internal produced in /home/knoldus/Application/slickApp/project/target/resolution-cache/reports/default-slickapp-build-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#slickapp-build;0.1-SNAPSHOT test-internal produced in /home/knoldus/Application/slickApp/project/target/resolution-cache/reports/default-slickapp-build-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#slickapp-build;0.1-SNAPSHOT plugin produced in /home/knoldus/Application/slickApp/project/target/resolution-cache/reports/default-slickapp-build-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#slickapp-build;0.1-SNAPSHOT sources produced in /home/knoldus/Application/slickApp/project/target/resolution-cache/reports/default-slickapp-build-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#slickapp-build;0.1-SNAPSHOT docs produced in /home/knoldus/Application/slickApp/project/target/resolution-cache/reports/default-slickapp-build-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#slickapp-build;0.1-SNAPSHOT pom produced in /home/knoldus/Application/slickApp/project/target/resolution-cache/reports/default-slickapp-build-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#slickapp-build;0.1-SNAPSHOT scala-tool produced in /home/knoldus/Application/slickApp/project/target/resolution-cache/reports/default-slickapp-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (2137ms resolve - 41ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1683ms :: artifacts dl 45ms[0m
+[0m[[0mdebug[0m] [0m	report for default#slickapp-build;0.1-SNAPSHOT compile produced in /home/sidharth/workspace/slickApp/project/target/resolution-cache/reports/default-slickapp-build-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#slickapp-build;0.1-SNAPSHOT runtime produced in /home/sidharth/workspace/slickApp/project/target/resolution-cache/reports/default-slickapp-build-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#slickapp-build;0.1-SNAPSHOT test produced in /home/sidharth/workspace/slickApp/project/target/resolution-cache/reports/default-slickapp-build-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#slickapp-build;0.1-SNAPSHOT provided produced in /home/sidharth/workspace/slickApp/project/target/resolution-cache/reports/default-slickapp-build-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#slickapp-build;0.1-SNAPSHOT optional produced in /home/sidharth/workspace/slickApp/project/target/resolution-cache/reports/default-slickapp-build-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#slickapp-build;0.1-SNAPSHOT compile-internal produced in /home/sidharth/workspace/slickApp/project/target/resolution-cache/reports/default-slickapp-build-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#slickapp-build;0.1-SNAPSHOT runtime-internal produced in /home/sidharth/workspace/slickApp/project/target/resolution-cache/reports/default-slickapp-build-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#slickapp-build;0.1-SNAPSHOT test-internal produced in /home/sidharth/workspace/slickApp/project/target/resolution-cache/reports/default-slickapp-build-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#slickapp-build;0.1-SNAPSHOT plugin produced in /home/sidharth/workspace/slickApp/project/target/resolution-cache/reports/default-slickapp-build-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#slickapp-build;0.1-SNAPSHOT sources produced in /home/sidharth/workspace/slickApp/project/target/resolution-cache/reports/default-slickapp-build-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#slickapp-build;0.1-SNAPSHOT docs produced in /home/sidharth/workspace/slickApp/project/target/resolution-cache/reports/default-slickapp-build-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#slickapp-build;0.1-SNAPSHOT pom produced in /home/sidharth/workspace/slickApp/project/target/resolution-cache/reports/default-slickapp-build-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#slickapp-build;0.1-SNAPSHOT scala-tool produced in /home/sidharth/workspace/slickApp/project/target/resolution-cache/reports/default-slickapp-build-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (1683ms resolve - 45ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

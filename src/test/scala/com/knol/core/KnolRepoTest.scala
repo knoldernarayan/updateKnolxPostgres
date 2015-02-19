@@ -9,9 +9,7 @@ import java.text.SimpleDateFormat
 import scala.slick.lifted.ProvenShape
 
 class KnolRepoTest extends FunSuite with BeforeAndAfter with DBConnection with KnolRepo {
-  /**
-   *
-   */
+  
   val dbOject = getObject()
   before {
     dbObject.withSession { implicit session =>

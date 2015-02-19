@@ -11,13 +11,14 @@ class SessionRepoTest extends FunSuite with BeforeAndAfter with DBConnection wit
   val dbOject = getObject()
   before {
     dbObject.withSession { implicit session =>
-      (knolSessionTable.ddl).create
-      createSession(KnolSession(1, "java", new Date(), 12344567))
+      (knolSessionTable.ddl ++ knolderTable.ddl).create
+      createSession(KnolSession(1, "java", new Date(),1))
+       createKnol(Knolder(1, "narayan", "narayan@knoldus.com", "12344567"))
     }
   }
   after {
     dbObject.withSession { implicit session =>
-      (knolSessionTable.ddl).drop
+      (knolSessionTable.ddl ++ knolderTable.ddl).drop
     }
   }
 
@@ -35,5 +36,9 @@ class SessionRepoTest extends FunSuite with BeforeAndAfter with DBConnection wit
   test("getKnolx a knolx") {
     val result = getKnolSession(1)
     assert(result.iterator.size === 1)
+  }
+  test("Test for getJoinSession"){
+    val result = getJoinKnolSession()
+    assert(result.iterator.size===1)
   }
 }
